@@ -26,9 +26,10 @@ const Navbar = () => {
         </li>
         <li className="p-4 flex items-center">Contact</li>
       </ul>
-      <div className="hidden md:flex px-16 py-16">
-        <button className="bg-[#5a0715] w-[180px] rounded-md font-medium my-6 mx-auto py-3 text-white">
-          Get a Quote
+      <div className="hidden md:flex justify-evenly items-center h-24 px-16 py-16 mx-auto">
+        <button className="sm:px-16 text-md font-medium text-red-800 border-2 border-red-800 px-2 py-2 rounded-2xl hover:text-white group relative flex items-center overflow-hidden">
+          <span className="absolute left-0 w-full h-0 transition-all bg-red-800 opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
+          <span class="relative">Get a Quote</span>
         </button>
       </div>
       <div onClick={handleNav} className="block md:hidden">
@@ -42,7 +43,7 @@ const Navbar = () => {
         }
       >
         <li className="p-4 flex justify-center border-b border-black-400">
-          Applications <RiArrowDropDownLine size={20} />
+          Applications
         </li>
         <li className="p-4 flex justify-center border-b border-black-400">
           Insurance <RiArrowDropDownLine size={20} />
