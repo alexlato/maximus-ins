@@ -9,55 +9,170 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="flex justify-between items-center h-24 mx-auto px-16 py-16 sm:px-24  text-[#71171e]">
-      <h1 className="w-full text-2xl text-[#71171e]">
-        Maximus Insurance Agency Inc.
-      </h1>
-      <ul className="hidden md:flex">
-        <li className="p-4 flex items-center">Applications</li>
-        <li className="p-4 flex items-center">
-          Insurance <RiArrowDropDownLine size={20} />
-        </li>
-        <li className="p-4 flex items-center">
-          About <RiArrowDropDownLine size={20} />
-        </li>
-        <li className="p-4 flex items-center">
-          Support <RiArrowDropDownLine size={20} />
-        </li>
-        <li className="p-4 flex items-center">Contact</li>
-      </ul>
-      <div className="hidden md:flex justify-evenly items-center h-24 px-16 py-16 mx-auto">
-        <button className="sm:px-16 text-md font-medium text-red-800 border-2 border-red-800 px-2 py-2 rounded-2xl hover:text-white group relative flex items-center overflow-hidden">
-          <span className="absolute left-0 w-full h-0 transition-all bg-red-800 opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
-          <span class="relative">Get a Quote</span>
-        </button>
-      </div>
-      <div onClick={handleNav} className="block md:hidden">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-      </div>
-      <ul
-        className={
-          nav
-            ? "fixed left-0 top-0 w-[80%] h-full border-r border-r-black-400 bg-white ease-in-out duration-500"
-            : "ease-in-out duration-500 fixed left-[-100%]"
-        }
-      >
-        <li className="p-4 flex justify-center border-b border-black-400">
-          Applications
-        </li>
-        <li className="p-4 flex justify-center border-b border-black-400">
-          Insurance <RiArrowDropDownLine size={20} />
-        </li>
-        <li className="p-4 flex justify-center border-b border-black-400">
-          About <RiArrowDropDownLine size={20} />
-        </li>
-        <li className="p-4 flex justify-center border-b border-black-400">
-          Support <RiArrowDropDownLine size={20} />
-        </li>
-        <li className="p-4 flex justify-center border-b border-black-400">
-          Contact
-        </li>
-      </ul>
+    <div className="flex items-center h-24 mx-auto sm:px-24 6a040ftext-[#71171e]">
+      <header className="container mx-auto flex items-center justify-center">
+        <a href="/" className="text-xl px-24">
+          Maximus Insurance Agency Inc.
+        </a>
+        <ul className="hidden md:flex">
+          <li className="relative group px-3 py-2">Applications</li>
+          <li class="relative group px-3 py-2">
+            <button class="flex hover:opacity-50 cursor-default">
+              Insurance <RiArrowDropDownLine size={24} />{" "}
+            </button>
+            <div class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+                <div class="relative z-10">
+                  <ul class="mt-3 text-[15px]">
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                      >
+                        Auto, Home, & Personal
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                      >
+                        Business
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                      >
+                        Trucking
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                      >
+                        Contractor
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="relative group px-3 py-2">
+            <button class="flex hover:opacity-50 cursor-default">
+              About <RiArrowDropDownLine size={24} />{" "}
+            </button>
+            <div class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+                <div class="relative z-10">
+                  <ul class="mt-3 text-[15px]">
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                      >
+                        Our Insurance Carriers
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                      >
+                        Meet Our Staff
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="relative group px-3 py-2">
+            <button class="flex hover:opacity-50 cursor-default">
+              Support <RiArrowDropDownLine size={24} />{" "}
+            </button>
+            <div class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+                <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+                <div class="relative z-10">
+                  <ul class="mt-3 text-[15px]">
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                      >
+                        Online Billing & Payments
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                      >
+                        File a Claim
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                      >
+                        Auto Card ID Request
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                      >
+                        Certificate of Insurance Request
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li className="relative group px-3 py-2">Contact</li>
+        </ul>
+        <div className="hidden md:flex justify-evenly items-center h-24 p-8 px-8 py-8 mx-auto">
+          <button className="sm:px-16 text-md font-medium text-red-800 border-2 border-red-800 px-4 py-4 rounded-2xl hover:text-white group relative flex items-center overflow-hidden">
+            <span className="absolute left-0 w-full h-0 transition-all bg-red-800 opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
+            <span class="relative">Get a Quote</span>
+          </button>
+        </div>
+        <div onClick={handleNav} className="block md:hidden p-12">
+          {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+        </div>
+        <ul
+          className={
+            nav
+              ? "fixed left-0 top-0 w-[80%] h-full border-r border-r-black-400 bg-white ease-in-out duration-500"
+              : "ease-in-out duration-500 fixed left-[-100%]"
+          }
+        >
+          <li className="p-4 flex justify-center border-b border-black-400">
+            Applications
+          </li>
+          <li className="p-4 flex justify-center border-b border-black-400">
+            Insurance <RiArrowDropDownLine size={20} />
+          </li>
+          <li className="p-4 flex justify-center border-b border-black-400">
+            About <RiArrowDropDownLine size={20} />
+          </li>
+          <li className="p-4 flex justify-center border-b border-black-400">
+            Support <RiArrowDropDownLine size={20} />
+          </li>
+          <li className="p-4 flex justify-center border-b border-black-400">
+            Contact
+          </li>
+        </ul>
+      </header>
     </div>
   );
 };
