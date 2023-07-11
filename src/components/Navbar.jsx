@@ -14,9 +14,7 @@ const Navbar = () => {
         Maximus Insurance Agency Inc.
       </h1>
       <ul className="hidden md:flex">
-        <li className="p-4 flex items-center">
-          Applications <RiArrowDropDownLine size={20} />
-        </li>
+        <li className="p-4 flex items-center">Applications</li>
         <li className="p-4 flex items-center">
           Insurance <RiArrowDropDownLine size={20} />
         </li>
