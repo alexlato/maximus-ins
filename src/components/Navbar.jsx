@@ -141,7 +141,7 @@ const Navbar = () => {
           <li className="relative group px-3 py-2">Contact</li>
         </ul>
         <div className="hidden md:flex justify-evenly items-center h-24 p-8 px-8 py-8 mx-auto">
-          <button className="sm:px-12 text-md font-medium text-blue-950 border-2 border-blue-950 px-2 py-2 rounded-2xl hover:text-white group relative flex items-center overflow-hidden">
+          <button className="sm:px-12 text-md font-medium text-blue-950 border-2 border-blue-950 px-2 py-2 rounded-md hover:text-white group relative flex items-center overflow-hidden">
             <span className="absolute left-0 w-full h-0 transition-all bg-blue-950 opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
             <span class="relative">Get Quote</span>
           </button>
