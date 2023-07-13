@@ -9,7 +9,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="flex items-center h-24 mx-auto sm:px-24 6a040ftext-[#71171e]">
+    <div className="flex items-center h-24 mx-auto sm:px-24 text-[#000000]">
       <header className="container mx-auto flex items-center justify-center">
         <a href="/" className="text-xl px-24">
           Maximus Insurance Agency Inc.
@@ -20,15 +20,15 @@ const Navbar = () => {
             <button class="flex hover:opacity-50 cursor-default">
               Insurance <RiArrowDropDownLine size={24} />{" "}
             </button>
-            <div class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
-              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
-                <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+            <div class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform ">
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full border border-black">
+                {/* <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm border border-blue-400"></div> */}
                 <div class="relative z-10">
                   <ul class="mt-3 text-[15px]">
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
                       >
                         Auto, Home, & Personal
                       </a>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
                       >
                         Business
                       </a>
@@ -44,7 +44,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
                       >
                         Trucking
                       </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
                       >
                         Contractor
                       </a>
@@ -67,14 +67,14 @@ const Navbar = () => {
               About <RiArrowDropDownLine size={24} />{" "}
             </button>
             <div class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
-              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
-                <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full border border-black">
+                {/* <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div> */}
                 <div class="relative z-10">
                   <ul class="mt-3 text-[15px]">
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
                       >
                         Our Insurance Carriers
                       </a>
@@ -82,7 +82,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
                       >
                         Meet Our Staff
                       </a>
@@ -97,14 +97,14 @@ const Navbar = () => {
               Support <RiArrowDropDownLine size={24} />{" "}
             </button>
             <div class="absolute top-0 -left-2 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[260px] transform">
-              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
-                <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div>
+              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full border border-black">
+                {/* <div class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm"></div> */}
                 <div class="relative z-10">
                   <ul class="mt-3 text-[15px]">
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
                       >
                         Online Billing & Payments
                       </a>
@@ -112,7 +112,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
                       >
                         File a Claim
                       </a>
@@ -120,7 +120,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
                       >
                         Auto Card ID Request
                       </a>
@@ -128,7 +128,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-pink-700 via-blue-500 font-semibold hover:from-red-600 hover:to-red-600 hover:via-red-400 py-1 block"
+                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
                       >
                         Certificate of Insurance Request
                       </a>
@@ -141,9 +141,9 @@ const Navbar = () => {
           <li className="relative group px-3 py-2">Contact</li>
         </ul>
         <div className="hidden md:flex justify-evenly items-center h-24 p-8 px-8 py-8 mx-auto">
-          <button className="sm:px-12 text-md font-medium text-red-800 border-2 border-red-800 px-2 py-2 rounded-2xl hover:text-white group relative flex items-center overflow-hidden">
-            <span className="absolute left-0 w-full h-0 transition-all bg-red-800 opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
-            <span class="relative">Get a Quote</span>
+          <button className="sm:px-12 text-md font-medium text-blue-950 border-2 border-blue-950 px-2 py-2 rounded-2xl hover:text-white group relative flex items-center overflow-hidden">
+            <span className="absolute left-0 w-full h-0 transition-all bg-blue-950 opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
+            <span class="relative">Get Quote</span>
           </button>
         </div>
         <div onClick={handleNav} className="block md:hidden p-12">
