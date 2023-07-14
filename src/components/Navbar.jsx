@@ -28,7 +28,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
+                        class="bg-transparent bg-clip-text text-black hover:text-red-500 py-1 block"
                       >
                         Auto, Home, & Personal
                       </a>
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
+                        class="bg-transparent bg-clip-text text-black hover:text-red-500 py-1 block"
                       >
                         Business
                       </a>
@@ -44,7 +44,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
+                        class="bg-transparent bg-clip-text text-black hover:text-red-500 py-1 block"
                       >
                         Trucking
                       </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
+                        class="bg-transparent bg-clip-text text-black hover:text-red-500 py-1 block"
                       >
                         Contractor
                       </a>
@@ -74,7 +74,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
+                        class="bg-transparent bg-clip-text text-black hover:text-red-500 py-1 block"
                       >
                         Our Insurance Carriers
                       </a>
@@ -82,7 +82,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
+                        class="bg-transparent bg-clip-text text-black hover:text-red-500 py-1 block"
                       >
                         Meet Our Staff
                       </a>
@@ -104,7 +104,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
+                        class="bg-transparent bg-clip-text text-black hover:text-red-500 py-1 block"
                       >
                         Online Billing & Payments
                       </a>
@@ -112,7 +112,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
+                        class="bg-transparent bg-clip-text text-black hover:text-red-500 py-1 block"
                       >
                         File a Claim
                       </a>
@@ -120,7 +120,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
+                        class="bg-transparent bg-clip-text text-black hover:text-red-500 py-1 block"
                       >
                         Auto Card ID Request
                       </a>
@@ -128,7 +128,7 @@ const Navbar = () => {
                     <li>
                       <a
                         href="#"
-                        class="bg-transparent bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-pink-700 via-blue-700 font-semibold hover:via-blue-950 py-1 block"
+                        class="bg-transparent bg-clip-text text-black hover:text-red-500 py-1 block"
                       >
                         Certificate of Insurance Request
                       </a>
@@ -141,8 +141,8 @@ const Navbar = () => {
           <li className="relative group px-3 py-2">Contact</li>
         </ul>
         <div className="hidden md:flex justify-evenly items-center h-24 p-8 px-8 py-8 mx-auto">
-          <button className="sm:px-12 text-md font-medium text-blue-950 border-2 border-blue-950 px-2 py-2 rounded-md hover:text-white group relative flex items-center overflow-hidden">
-            <span className="absolute left-0 w-full h-0 transition-all bg-blue-950 opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
+          <button className="sm:px-12 text-md font-medium text-red-950 border-2 border-red-950 px-2 py-2 rounded-md hover:text-white group relative flex items-center overflow-hidden">
+            <span className="absolute left-0 w-full h-0 transition-all bg-red-950 opacity-100 group-hover:h-full group-hover:top-0 duration-400 ease"></span>
             <span class="relative">Get Quote</span>
           </button>
         </div>
